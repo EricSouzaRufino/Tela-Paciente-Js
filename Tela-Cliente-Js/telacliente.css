@@ -68,7 +68,7 @@ a:hover {
 }
 
 .conf-itens {
-    border: 1px solid rgb(0, 250, 187);
+    /* border: 1px solid rgb(0, 250, 187); */
     border-radius: 25px;
     display: flex;
     flex-flow: nowrap;
@@ -196,33 +196,30 @@ a {
     max-width: 1920px;
     margin-top: 20px;
     display: flex;
-    flex-flow: nowrap;
+    flex-direction: row;
     justify-content: center;
-
+   
 }
 
 .conf-appointment {
-    /* border: 1px solid rgb(0, 250, 187); */
+    /* border: 3px solid rgb(255, 217, 0); */
     border-radius: 25px;
     display: flex;
-    flex-flow: nowrap;
-    justify-content: center;
-    margin: auto;
     background-color: white;
     width: 50%;
     box-shadow: 0 0 7px 0.5px black;
     height: 290px;
 }
 
-#button-confirm-appointment {
+.button-confirm-appointment {
     display: flex;
     flex-direction: row;
     align-items: center;
     bottom: 15%;
     border-radius: 30px;
     background-color: #c7ffb6;
-    height: 100px;
-    width: 200px;
+    height: 20%;
+    width: 40%;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #005f10;
@@ -231,19 +228,17 @@ a {
 }
 
 .text-information2 {
+    /* border: 4px solid rgb(89, 0, 255); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* background-color: white; */
     padding: 20px;
     /* border: 2px solid orange; */
-    width: 100%;
+    width: 50%;
     text-align: justify;
     display: flex;
     flex-direction: column;
-
     /* border-top-right-radius: 23px;
     border-bottom-right-radius: 23px; */
-
-
 }
 #icon-exit{
     font-size: 50px;
@@ -261,7 +256,7 @@ a {
     transform: scale(1.1);
 }
 
-#button-confirm-appointment:hover{
+.button-confirm-appointment:hover{
     transform: scale(1.1);
 }
 
@@ -296,6 +291,9 @@ a {
 	border: 1px solid #888;
 	width: 40%;
     border-radius: 25px;
+    color: #3b7197;
+    font-weight: bolder 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2{
@@ -349,4 +347,42 @@ h2{
     background-color: #3b7197;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
+
+.button-submit:hover{
+    transform: scale(1.1);
+}
+
+.calendar{
+    /* border: 3px solid fuchsia; */
+    height: 50%;
+    margin-right: 10px;
+}
+
+
+.div-button{
+    /* border: 3px solid pink ; */
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    margin-right: 2%;
+    justify-content: end;
+}
+
+
+.initialColor  {
+    background-color: rgb(218, 75, 39);
+    color: white;
+    text-align: center;
+    margin-bottom: 10PX;
+}
+
+.botao-selecionado2{
+    background-color: #c7ffb6;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 10PX;
+  
+  }
